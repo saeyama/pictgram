@@ -1,0 +1,15 @@
+current directory: /Users/saekoyamada/Documents/pictgram/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.5.0/ext/bootsnap
+/Users/saekoyamada/.rbenv/versions/2.7.1/bin/ruby -I /Users/saekoyamada/.rbenv/versions/2.7.1/lib/ruby/2.7.0 -r ./siteconf20201106-18014-14oeu5q.rb extconf.rb
+creating Makefile
+
+current directory: /Users/saekoyamada/Documents/pictgram/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.5.0/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/saekoyamada/Documents/pictgram/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.5.0/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/saekoyamada/Documents/pictgram/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.5.0/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20201106-18014-zi39c4/bootsnap
