@@ -36,6 +36,8 @@ group :development, :test do
   gem 'pry-doc'
   gem 'pry-byebug'
   gem 'pry-stack_explorer'
+
+  gem 'dotenv-rails'
 end
 
 group :development do
@@ -67,3 +69,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bcrypt'
 
 gem "carrierwave"
+
+gem 'fog-aws'
