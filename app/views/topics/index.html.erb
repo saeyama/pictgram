@@ -29,8 +29,8 @@
             <h3 class="comment-list-title">コメント</h3>
             <% topic.comments.each do |comment| %>
               <p class="comment-text"><%= comment.content %></p>
-            <% end %>
-
+              <p class="comment-text"><%= link_to '削除', comments_path(topic_id: topic.id),method: :delete, data: { confirm: 'Are you sure?' } %></p>
+　　　　　　　<% end %>
           </div>
         </div>
       </div>

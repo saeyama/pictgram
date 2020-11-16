@@ -13,7 +13,14 @@ class CommentsController < ApplicationController
     else
       flash.now[:danger] = 'コメントに失敗しました'
     end
-  end 
+  end
+ 
+  def destroy
+    comment = Comment.find_by(params[:topic_id])
+    comment.destroy
+    flash[:success] = 'コメントを解除しました'
+    redirect_to topics_path
+  end
 
   private
   def comment_params
